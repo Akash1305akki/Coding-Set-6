@@ -1,0 +1,18 @@
+st=input("Enter a string:")
+a=len(st);
+count=0;
+for i in range(0,a):
+    if(st[i]=='a'):
+        count=count+1;
+    elif(st[i]=='e'):
+        count=count+1;
+    elif(st[i]=='i'):
+        count=count+1;
+    elif(st[i]=='o'):
+        count=count+1;
+    elif(st[i]=='u'):
+        count=count+1;
+if(count>0):
+    print("no.of vowels in given string is" ,count);
+else:
+    print("No vowels present in given string");
