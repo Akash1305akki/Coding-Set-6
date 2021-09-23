@@ -1,0 +1,13 @@
+st1=input("Enter string 1:")
+st2=input("Enter string 2:")
+x=len(st1)
+y=len(st2)
+a=sorted(st1)
+b=sorted(st2)
+if x==y:
+    if a==b:
+        print("Given strings are anagram to each other");
+    else:
+        print("Not an anagram");
+else:
+    print("Not even equal in length");
